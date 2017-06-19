@@ -18,10 +18,11 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+	
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
-
+	
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -32,7 +33,35 @@
 
 <body>
 
-	<!-- Здесь пишем код -->
+	<div class="main">
+		<header class="header">
+			<nav class="header__nav">
+				<div class="header__logo-wrapper">
+					<img src="img/logo.png" alt="" class="header__logo">
+				</div>
+				<ul class="header__list navigation">
+					<li class="navigation__item">Home</li>
+					<li class="navigation__item">About</li>
+					<li class="navigation__item">Services</li>
+					<li class="navigation__item">Gallery</li>
+					<li class="navigation__item">Contact</li>
+				</ul>
+			</nav>
+			<div class="header__info">
+				<h1 class="header__title">Trusted by every1</h1>
+				<p class="header__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+			<form action="#" class="header__form form">
+				<h3 class="form__title">Request a quote</h3>
+				<input type="text" class="form__input--name" name="name" placeholder="Full Name">
+				<input type="email" class="form__input--email" name="email" placeholder="Email Adress">
+				<input type="text" class="form__input--phone" name="phone" placeholder="Phone Number">
+				<input type="text" class="form__input--country" name="country" placeholder="Country">
+				<input type="checkbox" id="checkbox"><label for="checkbox">I accept the terms & conditions</label>
+				<input type="submit" value="Send">
+			</form>
+		</header>
+	</div>
 	
 	<div class="hidden"></div>
 
