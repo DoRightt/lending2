@@ -2,12 +2,159 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.header__title {
+		font-size: 70px;
+	}
 
+	.header__info {
+		width: 50%;
+	}
+
+	.header__form {
+		width: 40%;
+	}
+
+	.price-block {
+		width: 30%;
+		padding: 16px 0;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.header__content,
+	.footer__content {
+		padding: 32px;
+	}
 
+	.navigation__item {
+		font-size: 14px;
+		margin: 0;
+	}
+
+	.header__title {
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+	.header__info {
+		margin-top: 32px;
+	}
+
+	.header__text {
+		font-size: 16px;
+	}
+	
+	.header__form {
+		padding: 16px;
+		top: 92px;
+	}
+
+	.form__input {
+		height: 40px;
+		font-size: 16px;
+	}
+
+	.form__checkbox-wrapper {
+		font-size: 14px;
+	}
+
+	.form__title {
+		margin: 0;
+	}
+
+	.service__title {
+		font-size: 40px;
+	}
+
+	.service__img {
+		height: 80px;
+	}
+
+	.service__item-text {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	.story {
+		padding: 16px 32px;
+	}
+
+	.story__text {
+		font-size: 16px;
+	}
+
+	.button {
+		font-size: 16px;
+		height: 40px;
+		padding: 0;
+	}
+
+	.story__button {
+		width: 180px;
+	}
+	
+	.pricing {
+		padding: 32px;
+	}
+
+	.pricing__title {
+		font-size: 40px;
+	}
+
+	.price-block__button {
+		max-width: 80%;
+	}
+
+	.price-block__price {
+		font-size: 30px;
+	}
+
+	.price-block__li {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	.testimonials {
+		padding: 32px;
+	}
+
+	.tes__title,
+	.gallery__title {
+		font-size: 32px;
+	}
+
+	.tes__text,
+	.tes__text2,
+	.tes__username,
+	.tes__username2 {
+		font-size: 16px;
+		margin: 0;
+	}
+
+	.tes__block2 {
+		margin-top: 16px;
+		padding: 16px;
+	}
+
+	.tes__userava {
+		width: 100px;
+		right: -50px
+	}
+
+	.gallery__img {
+		height: 80px;
+		width: auto;
+	}
+
+	.gallery__link {
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.footer__info {
+		font-size: 16px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -34,7 +181,8 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-
+	
+	
 }
 
 /* Extra Small Devices, Phones */

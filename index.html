@@ -32,9 +32,8 @@
 </head>
 
 <body>
-
-	<div class="main">
-		<header class="header">
+	<header class="header">
+		<div class="header__content">
 			<nav class="header__nav">
 				<div class="header__logo-wrapper">
 					<img src="img/logo.png" alt="" class="header__logo">
@@ -48,20 +47,137 @@
 				</ul>
 			</nav>
 			<div class="header__info">
-				<h1 class="header__title">Trusted by every1</h1>
+				<h1 class="header__title"><span>Trusted</span><br> by every1</h1>
 				<p class="header__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 			</div>
 			<form action="#" class="header__form form">
 				<h3 class="form__title">Request a quote</h3>
-				<input type="text" class="form__input--name" name="name" placeholder="Full Name">
-				<input type="email" class="form__input--email" name="email" placeholder="Email Adress">
-				<input type="text" class="form__input--phone" name="phone" placeholder="Phone Number">
-				<input type="text" class="form__input--country" name="country" placeholder="Country">
-				<input type="checkbox" id="checkbox"><label for="checkbox">I accept the terms & conditions</label>
-				<input type="submit" value="Send">
+				<input type="text" class="form__input form__input--name" name="name" placeholder="Full Name">
+				<input type="email" class="form__input form__input--email" name="email" placeholder="Email Adress">
+				<input type="text" class="form__input form__input--phone" name="phone" placeholder="Phone Number">
+				<input type="text" class="form__input form__input--country" name="country" placeholder="Country">
+				<div class="form__checkbox-wrapper">
+					<input type="checkbox" class="form__input form__input--check id="checkbox"><label for="checkbox">I accept the terms & conditions</label>
+				</div>
+				<input type="submit" class="form__input form__input--button button" value="Send">
 			</form>
-		</header>
+		</div>
+	</header>
+
+	<div class="main">
+		<section class="service">
+			<h2 class="service__title"><span>Our</span> services</h2>
+			<div class="service__wrapper">
+				<div class="service__item">
+					<img src="img/heart.png" alt="alt" class="service__img">
+					<p class="service__item-text">Making your trip
+					beautiful and easier</p>
+				</div>
+				<div class="service__item">
+					<img src="img/tools.png" alt="alt" class="service__img">
+					<p class="service__item-text">Tools to help you
+					succeed tommorow</p>
+				</div>
+				<div class="service__item">
+					<img src="img/bulb.png" alt="alt" class="service__img">
+					<p class="service__item-text">Ideas that will blow
+					you out the blue.</p>
+				</div>
+				<div class="service__item">
+					<img src="img/clock.png" alt="alt" class="service__img">
+					<p class="service__item-text">Navigate your path
+					to beautiful world.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="story">
+			<p class="story__text">We are in business for over 6 years providing amazing services to client
+			and people love them to the core. View our story to know more.</p>
+			<button class="story__button button">Our story</button>
+		</section>
+
+		<section class="pricing">
+			<h1 class="pricing__title">Pricing</h1>
+			<div class="pricing__wrapper">
+				<div class="pricing__item price-block">
+					<h3 class="price-block__title">Starter</h3>
+					<p class="price-block__price">Free</p>
+					<ul class="price-block__list">
+						<li class="price-block__li">Free Service</li>
+						<li class="price-block__li">Multiple Accounts</li>
+						<li class="price-block__li">Management No</li>
+						<li class="price-block__li">--</li>
+						<li class="price-block__li">--</li>
+					</ul>
+					<button class="price-block__button button button--skyblue">Try</button>
+				</div>
+				<div class="pricing__item price-block">
+					<h3 class="price-block__title">Business</h3>
+					<p class="price-block__price">$97</p>
+					<ul class="price-block__list">
+						<li class="price-block__li">Free Service</li>
+						<li class="price-block__li">Multiple Accounts</li>
+						<li class="price-block__li">Management No</li>
+						<li class="price-block__li">Unlimited Data</li>
+						<li class="price-block__li">--</li>
+					</ul>
+					<button class="price-block__button button">Sing Up</button>
+				</div>
+				<div class="pricing__item price-block">
+					<h3 class="price-block__title">Professional</h3>
+					<p class="price-block__price">$297</p>
+					<ul class="price-block__list">
+						<li class="price-block__li">Free Service</li>
+						<li class="price-block__li">Multiple Accounts</li>
+						<li class="price-block__li">Management No</li>
+						<li class="price-block__li">Unlimited Data</li>
+						<li class="price-block__li">Whatever You Need</li>
+					</ul>
+					<button class="price-block__button button button--skyblue">Sing Up</button>
+				</div>
+			</div>
+		</section>
+		
+		<section class="testimonials">
+			<div class="testimonials__tes tes">
+				<h2 class="tes__title">Testimonial</h2>
+				<div class="tes__block1">
+					<p class="tes__text">I have been involved with this comapny for ages and just want to say this is a great work by designcoon.</p>
+					<span class="tes__username">DJ Bravo - Frequent Travelera</span>
+				</div>
+				<div class="tes__block2">
+					<p class="tes__text2">I have been involved with this comapny for ages and just.</p>
+					<span class="tes__username">DJ Bravo - Frequent Travelera</span>
+					<img class="tes__userava" src="img/avatars/3.png" alt="alt">
+				</div>
+			</div>
+
+			<div class="testimonials__gallery gallery">
+				<h2 class="gallery__title">Gallery</h2>
+				<div class="gallery__wrapper">
+					<img src="img/avatars/1.png" alt="alt" class="gallery__img">
+					<img src="img/avatars/2.png" alt="alt" class="gallery__img">
+					<img src="img/avatars/4.png" alt="alt" class="gallery__img">
+					<img src="img/avatars/5.png" alt="alt" class="gallery__img">
+					<img src="img/avatars/6.png" alt="alt" class="gallery__img">
+					<img src="img/avatars/7.png" alt="alt" class="gallery__img">
+					<div class="gallery__link-wrapper">
+						<a href="" class="gallery__link">View more pictures</a>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
+
+	<footer class="footer">
+		<div class="footer__content">
+			<div class="footer__info">All Rights Reserved |  2016  |  Designed with love by <span>DesignCoon</span></div>
+			<div class="footer__logo-wrapper">
+				<img src="img/logo-footer.png" alt="alt" class="footer__logo">
+			</div>
+		</div>
+	</footer>
 	
 	<div class="hidden"></div>
 
