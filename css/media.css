@@ -182,11 +182,198 @@
 		animation: none !important;
 	}
 	
+	.header__content {
+		padding: 16px;
+	}
+
+	.header__logo {
+		width: 100px;
+	}
+
+	.navigation {
+		margin: 0;
+	}
+
+	.navigation__item {
+		margin: 0;
+		padding: 2px 4px;
+	}
+
+	.header__title {
+		font-size: 40px;
+	}
 	
+	.form {
+		margin: 0;
+		top: 56px;
+	}
+
+	.form__title {
+		font-size: 18px;
+	}
+
+	.service {
+		padding: 16px;
+	}
+
+	.form__input {
+		height: 32px;
+	}
+	
+	.story {
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+	.story__text {
+		width: 70%;
+		font-size: 14px;
+	}
+
+	.button {
+		height: 32px;
+	}
+
+	.story__button {
+		width: 120px;
+	}
+	
+	.testimonials {
+		flex-wrap: wrap;
+	}
+
+	.tes__block1 {
+		margin: 0;
+		padding: 0;
+	}
+
+	.tes,
+	.gallery {
+		width: 100%;
+	}
+
+	.tes__userava {
+		right: -30px;
+		top: 0px;
+	}
+	
+	
+}
+
+@media only screen and (max-width : 600px) {
+	.header__nav {
+		flex-wrap: wrap;
+	}
+
+	.navigation {
+		widht: 100%;
+		flex-wrap: wrap;
+	}
+
+	.header__content {
+		flex-wrap: wrap;
+	}
+
+	.header__info {
+		width: 100%;
+	}
+
+	.form {
+		margin: 16px auto;
+		width: 70%;
+		top: 0;
+	}
+
+	.service__wrapper {
+		margin-top: 32px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.service__item {
+		width: 40%;
+	}
+
+	.story {
+		flex-wrap: wrap;
+	}
+
+	.story__text {
+		width: 100%;
+		margin-bottom: 8px;
+	}
+
+	.pricing {
+		padding: 16px;
+	}
+
+	.pricing__wrapper {
+		flex-wrap: wrap;
+	}
+
+	.price-block {
+		width: 60%;
+		margin: 8px auto;
+	}
+
+	.tes__userava {
+		top: 40px;
+	}
+
+	.gallery__img {
+		width: auto;
+		height: 30%;
+	}
+
+	.footer__content {
+		flex-wrap: wrap;
+		padding: 16px;
+	}
+
+	.footer__info {
+		width: 100%;
+	}
+
+	.footer__logo-wrapper {
+		width: 100%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: flex-end;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.navigation {
+		padding: 0;
+	}
+
+	.navigation__item {
+		font-size: 11px;
+	}
+
+	.header__info {
+		padding: 0;
+	}
+
+	.form {
+		width: 90%;
+	}
+	
+	.price-block {
+		width: 90%;
+	}
+
+	.tes__userava {
+		display: none;
+	}
+
+	.gallery__img {
+		width: 33%;
+	}
 
 }
 
