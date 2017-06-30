@@ -40,10 +40,10 @@
 				</div>
 				<ul class="header__list navigation">
 					<li class="navigation__item">Home</li>
-					<li class="navigation__item">About</li>
-					<li class="navigation__item">Services</li>
-					<li class="navigation__item">Gallery</li>
-					<li class="navigation__item">Contact</li>
+					<li class="navigation__item"><a href="#about">About</a></li>
+					<li class="navigation__item"><a href="#service">Services</a></li>
+					<li class="navigation__item"><a href="#gallery">Gallery</a></li>
+					<li class="navigation__item"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="header__info">
@@ -64,7 +64,7 @@
 		</div>
 	</header>
 
-	<div class="main">
+	<div class="main" id="about">
 		<section class="service">
 			<h2 class="service__title"><span>Our</span> services</h2>
 			<div class="service__wrapper">
@@ -94,10 +94,10 @@
 		<section class="story">
 			<p class="story__text">We are in business for over 6 years providing amazing services to client
 			and people love them to the core. View our story to know more.</p>
-			<button class="story__button button">Our story</button>
+			<button class="story__button button button">Our story</button>
 		</section>
 
-		<section class="pricing">
+		<section class="pricing" id="service">
 			<h1 class="pricing__title">Pricing</h1>
 			<div class="pricing__wrapper">
 				<div class="pricing__item price-block">
@@ -139,7 +139,7 @@
 			</div>
 		</section>
 		
-		<section class="testimonials">
+		<section class="testimonials" id="gallery">
 			<div class="testimonials__tes tes">
 				<h2 class="tes__title">Testimonial</h2>
 				<div class="tes__block1">
@@ -170,7 +170,7 @@
 		</section>
 	</div>
 
-	<footer class="footer">
+	<footer class="footer" id="contact">
 		<div class="footer__content">
 			<div class="footer__info">All Rights Reserved |  2016  |  Designed with love by <span>DesignCoon</span></div>
 			<div class="footer__logo-wrapper">
@@ -196,7 +196,7 @@
 	<![endif]-->
 
 	
-	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>

@@ -25,6 +25,12 @@ html.js .loader {
 * {
   box-sizing: border-box; }
 
+a {
+  color: #fff; }
+  a:hover {
+    text-decoration: none;
+    color: inherit; }
+
 body {
   font-family: "RobotoRegular", sans-serif;
   font-weight: normal;
@@ -345,6 +351,9 @@ body textarea:required:valid {
   text-align: center;
   font-size: 20px;
   text-decoration: underline; }
+  .gallery__link:hover {
+    text-decoration: underline;
+    color: #717171; }
 
 .gallery__link-wrapper {
   display: -webkit-flex;
@@ -376,5 +385,13 @@ body textarea:required:valid {
   font-size: 20px; }
   .footer__info span {
     color: #5dbbc1; }
+
+.button {
+  transition: all 0.2s; }
+  .button:hover {
+    background-color: #24194E; }
+
+.button--skyblue:hover {
+  background-color: #67D2D9; }
 
 /*# sourceMappingURL=main.css.map */

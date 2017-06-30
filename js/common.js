@@ -39,9 +39,30 @@ $(function() {
 	
 });
 
-$(window).load(function() {
+$(window).ready(function() {
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 
+});
+
+// Анимации
+
+$(document).ready(function() {
+	$(".header__logo-wrapper").animated("fadeInDown");
+	$(".navigation").animated("slideInRight");
+	$("h1, h2").animated("fadeInDown");
+	$("p").animated("fadeInUp");
+	$(".service__img").animated("fadeInUp");
+	$(".gallery__img").animated("fadeInRightBig");
+	$(".gallery__link").animated("slideInUp");
+	$(".price-block").animated("zoomIn");
+	
+	 // Код для перехода по якорямм
+	$('a[href^="#"]').on("click", function() {
+		var anchor = $(this);
+	    $('html, body').stop().animate({
+	        scrollTop: $(anchor.attr('href')).offset().top
+	    }, 1000);
+	});
 });
